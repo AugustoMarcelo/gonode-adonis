@@ -13,7 +13,7 @@ class Project extends Model {
   /**
    * Relationship: a Project has many Tasks
    */
-  taks () {
+  tasks () {
     return this.hasMany('App/Models/Task')
   }
 }
